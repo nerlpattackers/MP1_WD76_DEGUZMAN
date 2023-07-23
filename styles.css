@@ -116,5 +116,31 @@ h1{
   }
   
   /* for navbar */
+  /* back to top button */
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    border-radius: 50%;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+  }
+
+  /* Style the Font Awesome icon inside the button */
+  #myBtn i {
+    font-size: 24px;
+    line-height: 50px;
+  }
+  
+  /* Add a hover effect */
+  #myBtn:hover {
+    background-color: #333;
+  }
+  /* back to top button */
   
   

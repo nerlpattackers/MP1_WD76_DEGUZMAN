@@ -18,31 +18,56 @@
 </head>
 
 <body>
+  <button onclick="topFunction()" id="myBtn" class="rounded-button"><i class="fas fa-arrow-up"></i></button>
+
+<script>
+// Get the button
+let mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
     <!-- Navbar -->
 <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-    <a class="navbar-brand" href="index.html">Mari na sa Albay!</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link text-primary fw-bold" href="#" style="font-size: 1.1rem;">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-primary fw-bold" href="destination.html" style="font-size: 1.1rem;">Destination</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-primary fw-bold" href="festival.html" style="font-size: 1.1rem;">Festival</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-primary fw-bold" href="foods.html" style="font-size: 1.1rem;">Foods</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <!-- navigation bar -->
+  <a class="navbar-brand" href="index.html">Mari na sa Albay!</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-primary fw-bold" href="index.html" style="font-size: 1.1rem;">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-primary fw-bold" href="destination.html" style="font-size: 1.1rem;">Destination</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-primary fw-bold" href="festival.html" style="font-size: 1.1rem;">Festival</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-primary fw-bold" href="foods.html" style="font-size: 1.1rem;">Foods</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<!-- navigation bar -->
   <!-- Add your content here -->
   
   <!-- Add Bootstrap JS and jQuery scripts -->
@@ -77,11 +102,11 @@
           <img src="img/Destination/cagsawa-ruins-.jpg" alt="" class="img-fluid">
         </div>
         <div class="col-lg-6 col-md-12">
-          <h2 class="fw-bold" style="color: orangered;">Cagsawa Ruins</h2>
+          <h3 class="fw-bold" style="color: orangered;">Cagsawa Ruins</h3>
           <p><b>ON FEBRUARY 1, 1814</b>, THE Mayon Volcano had its most violent eruption in recorded history, destroying the entire town of Cagsawa. Over a thousand people were killed in the disaster, including hundreds who sought refuge in the stone church during the eruption, but were tragically engulfed by the fast-flowing volcanic matter.</p>
           <p>The belfry and parts of the facade are all that remained of the 16th-century Cagsawa church after the eruption, but the facade collapsed over time, leaving only the old bell tower standing today. It is now joined by a wooden cross that was placed where the church altar used to be.</p>
           <p>
-            Today, the Cagsawa ruins are one of the most popular tourist attractions in Albay province, as they are set against the magnificent backdrop of their very maker, the Mayon Volcano. Equal parts historic and scenic, the site, now named Cagsawa Ruins Park, was even declared a national cultural treasure.
+            Today, the Cagsawa ruins are one of the most popular tourist attractions in Albay province, as they are set against the magnificent backdrop of their very maker, the Mayon Volcano.
           </p>
         </div>
       </div>
