@@ -14,16 +14,66 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kablammo&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="jav.js"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <title>Destination</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
 <body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <a class="navbar-brand" href="index.html">Mari na sa Albay!</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link text-primary fw-bold" href="index.html" style="font-size: 1.1rem;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary fw-bold" href="destination.html" style="font-size: 1.1rem;">Destination</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary fw-bold" href="festival.html" style="font-size: 1.1rem;">Festival</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary fw-bold" href="foods.html" style="font-size: 1.1rem;">Foods</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+  <!-- navigation bar -->
+  <!-- Add your content here -->
+  
+  <!-- Add Bootstrap JS and jQuery scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <!-- Add custom JavaScript for navbar scrolling -->
+  <script>
+    $(function() {
+      $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 50) {
+          $(".navbar").addClass("scrolled");
+        } else {
+          $(".navbar").removeClass("scrolled");
+        }
+      });
+    });
+  </script>
+    <!-- End of Navigation Bar -->  
     <!-- header -->
+    <div class="content-container-fluid">
     <div class="header p-5">
         <h1 class="fw-bolder text-center m-5" style="font-size: 4rem;">Majestic Tourist Spots</h1>
         <p class="fw-bold text-center par text-light" style="font-size: 1.3rem;">
             Welcome to Albay, a true paradise for lovers of the great outdoors! Situated in the beautiful Philippines, this enchanting province boasts an awe-inspiring landscape that seamlessly combines active volcanoes, majestic mountains, mysterious caves, rugged cliffs, and serene white-sand beaches fringed by vibrant coral reefs.</p>
         <p class="fw-bold text-center par" style="font-size: 1.3rem;">One of the most striking features of Albay is its active volcanoes, which add a touch of both excitement and wonder to the region. The majestic Mayon Volcano, renowned for its perfect cone shape, dominates the skyline and is an iconic symbol of the province. Despite its potentially dangerous nature, the locals have learned to coexist harmoniously with this geological marvel, and visitors are captivated by its mesmerizing beauty. The occasional mild eruptions serve as a reminder of the powerful forces shaping our planet.</p>
         <p class="fw-bold text-center par" style="font-size: 1.3rem;">For adventure seekers and avid hikers, the mountains of Albay present an irresistible playground. Numerous trails wind through lush forests and ascending slopes, offering breathtaking panoramas of the surrounding countryside. Explorers can choose from a variety of treks suited to their skill levels, with each trail promising unique experiences and picturesque landscapes that will remain etched in their memories.</p>
+    </div>
     </div>
     <!-- header -->
     <!-- Destination -->
@@ -36,7 +86,7 @@
                 <div class="card h-100">
                     <img src="img/Destination/cagsawa-ruins-.jpg" alt="" class="card-img-top">
                     <div class="card-body">
-                        <a href=""><h3 class="card-title text-center" style="color: orangered;">CAGSAWA RUINS</h3></a>
+                        <a href="cagsawa.html"><h3 class="card-title text-center" style="color: orangered;">CAGSAWA RUINS</h3></a>
                         <p class="card-text text-secondary text-left">
                             Located in the municipality of Daraga in the province of Albay, Cagsawa Ruins are the remnants of the ‘Cagsaua Church’ that was destroyed by the eruption of Mayon Volcano in 1814. It was built sometime in the 1720s under the supervision of Franciscan Friars. The church was said to be the replacement for the church that was burned by the Dutch in 1636.
                         </p>
@@ -124,52 +174,13 @@
                 </div>
             </div>
             <!-- End of Col -->
-            <!-- Start of Col -->
-            <div class="col-lg-3 col-md-12">
-                <div class="card h-100">
-                    <img src="img/8.jpg" alt="" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title text-left" style="color: orangered;">8. Eco-Tourism Opportunities</h3>
-                        <p class="card-text text-secondary text-left">
-                            Albay takes pride in its commitment to preserving the environment. Participate in eco-tours that promote sustainability and conservation efforts, allowing you to appreciate the natural beauty responsibly.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- End of Col -->
-            <!-- Start of Col -->
-            <div class="col-lg-3 col-md-12">
-                <div class="card h-100">
-                    <img src="img/9.jpg" alt="" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title text-left" style="color: orangered;">9. Unique Souvenirs</h3>
-                        <p class="card-text text-secondary text-left">
-                            Albay is renowned for its handicrafts and products made from abaca fiber, pili nuts, and coconut shells. Take home authentic and locally-made souvenirs to cherish the memories of your time in this captivating province.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!-- End of Col -->
-            <!-- Start of Col -->
-            <div class="col-lg-3 col-md-12">
-                <div class="card h-100">
-                    <img src="img/10.jpg" alt="" class="card-img-top">
-                    <div class="card-body">
-                        <h3 class="card-title text-left" style="color: orangered;">10. Vibrant Nightlife and Entertainment</h3>
-                        <p class="card-text text-secondary text-left">
-                            When the sun sets, Albay comes alive with a vibrant nightlife scene. Enjoy live music, dance the night away at local bars and clubs, or join one of the many beach parties and gatherings. The lively atmosphere and friendly locals ensure that your nights in Albay are as fun-filled as your days.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
         </div>
         </div>
             <!-- Featured video -->
-            <div class="container p-5 bg-light">
-                    <h1 class="text" style="color: orangered;">Featured video of Biyahe ni Drew</h1>
+            <div class="container p-5 mb-5 bg-light">
+                    <h1 class="text" style="color: orangered;">Island Spotlight</h1>
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0FDb7U4zbGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3tUYgUUNWAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                       </div>
             </div>
             <!-- Featured video -->
@@ -182,69 +193,46 @@
                         <!-- Start of Col -->
                         <div class="col-lg-4 col-md-12">
                             <div class="card h-100">
-                                <img src="img/mayon.gif" alt="" class="card-img-top">
+                                <img src="img/news1.jpeg" alt="" class="card-img-top">
                                 <div class="card-body">
-                                    <h3 class="card-title text-left" style="color: orangered;">1. Majestic Mayon Volcano</h3>
+                                    <h3 class="card-title text-left" style="color: orangered;">Restive Mayon still attracting more tourists to Albay</h3>
                                     <p class="card-text text-secondary text-left">
-                                    Albay boasts the stunning Mayon Volcano, an almost perfectly symmetrical cone that dominates the landscape. Its awe-inspiring beauty provides a picturesque backdrop for any activity, making it a photographer's dream.
+                                      LEGAZPI CITY, Albay, Philippines — While thousands of residents of Albay province were fleeing or being taken to shelters away from the danger zone of the restive Mt. Mayon, this city is seeing a rise of tourists drawn here by the volcano’s lava flow and rockfall events.
                                     </p>
+                                    <a href="https://newsinfo.inquirer.net/1793130/restive-mayon-stillattracting-more-tourists-to-albay"><button type="button" class="btn btn-outline-info">Read More</button></a>
                                 </div>
                             </div>
                         </div>
                         <!-- Start of Col -->
                         <div class="col-lg-4 col-md-12">
                             <div class="card h-100">
-                                <img src="img/mayon.gif" alt="" class="card-img-top">
+                                <img src="img/news2.jpg" alt="" class="card-img-top">
                                 <div class="card-body">
-                                    <h3 class="card-title text-left" style="color: orangered;">1. Majestic Mayon Volcano</h3>
+                                    <h3 class="card-title text-left" style="color: orangered;">Albay town eyes subterranean cave as new tourism site</h3>
                                     <p class="card-text text-secondary text-left">
-                                    Albay boasts the stunning Mayon Volcano, an almost perfectly symmetrical cone that dominates the landscape. Its awe-inspiring beauty provides a picturesque backdrop for any activity, making it a photographer's dream.
+                                      LEGAZPI CITY – A new potential tourism area in Camalig town in Albay province is being planned to be developed by the Municipal Tourism and Cultural Heritage Office (MTCHO).
                                     </p>
+                                    <a href="https://www.pna.gov.ph/articles/1199392?fbclid=IwAR1MmJaDVpW7SsVuRDdazvgUssdOjluzRWnzyco8Njx956wPuM_xNJBkFKE"><button type="button" class="btn btn-outline-info">Read More</button></a>
                                 </div>
                             </div>
                         </div>
                         <!-- Start of Col -->
                         <div class="col-lg-4 col-md-12">
                             <div class="card h-100">
-                                <img src="img/mayon.gif" alt="" class="card-img-top">
+                                <img src="img/news3.webp" alt="" class="card-img-top">
                                 <div class="card-body">
-                                    <h3 class="card-title text-left" style="color: orangered;">1. Majestic Mayon Volcano</h3>
+                                    <h3 class="card-title text-left" style="color: orangered;">Albay ‘heritage town’ adopts dev’t strategies to boost tourism</h3>
                                     <p class="card-text text-secondary text-left">
-                                    Albay boasts the stunning Mayon Volcano, an almost perfectly symmetrical cone that dominates the landscape. Its awe-inspiring beauty provides a picturesque backdrop for any activity, making it a photographer's dream.
+                                      LEGAZPI CITY – The local government unit (LGU) of Camalig is set to launch several projects that focus on the development of tourism infrastructure, promotional strategies, skills capability training, and Department of Tourism (DOT) accreditation of tourism-related establishments.
                                     </p>
+                                    <a href="https://canadianinquirer.net/2022/09/23/albay-heritage-town-adopts-devt-strategies-to-boost-tourism/?fbclid=IwAR2OIBrJ62Bn9ACZjckH_h5C5JbsLeNt1De7SAyFU6b_HWGenm8Aei759mc"><button type="button" class="btn btn-outline-info">Read More</button></a>
                                 </div>
                             </div>
                         </div>
-
             </div>
-
             </div>
         </div>
-    <!-- Destination -->
-    <!-- travel info -->
-    <div class="container p-5 bg-light mt-5" id="travel-info">
-        <div class="content-container m-5 p-5">
-          <div class="row g-5">
-            <h1 style="text-align: center; color: orangered;">Getting There & Away</h1>
-            <div class="col-lg-6">
-              <H2><i class="fa-solid fa-plane"></i> Air</H2>
-              <p>There are short flights (roughly 75-90mins) from Manila to Legazpi in Albay, Naga City in Camarines Sur, Virac on Catanduanes and Masbate island. CALABARZON’s Quezon province is also a gateway to Bicol.</p>
-            </div>
-            <div class="col-lg-6">
-              <h2><i class="fa-solid fa-car-side"></i> Land</h2>
-              <p>By road, it’s about 475km/9hrs 30mins from Manila to Legazpi. Buses, jeepneys and cars are popular means of getting around the region.</p>
-            </div>
-            <div class="col-12">
-              <h2><i class="fa-regular fa-map"></i> MORE TRAVEL INFO</h2>
-              <p>For more general information on travel to and around the Philippine Islands, visit our travel information section:
-
-                Maps, travel tips, information on visas, working holidays and health and safety.</p>
-
-                <a href="http://127.0.0.1:5500/travel-info.html"><button type="button" class="btn btn-outline-info">MORE INFO Here</button></a>
-            </div>
-          </div>
-        </div>
-      </div>
+            <!-- latest news -->
   
 </body>
 </html>
