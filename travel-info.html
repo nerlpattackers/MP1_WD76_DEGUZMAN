@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kablammo&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="jav.js"> -->
+    
+    <title>Travel Info</title>
+     <!-- Add Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Add custom CSS -->
+  <style>
+    .header {
+    width: 100%;
+    position: relative; /* Add position relative for proper stacking */
+    background-image: url(img/travel-info.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+/* Add a pseudo-element for the overlay */
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3); /* Adjust the alpha (last value) to control darkness */
+}
+
+/* Adjust text styles */
+.header h1 {
+    margin-top: 15% !important;
+    color: white; /* Set text color to white for better readability */
+    background-color: transparent; /* Set background to transparent */
+    position: relative; /* Add position relative for proper stacking */
+    z-index: 2; /* Place the h1 above the pseudo-element */
+}
+
+.header p {
+    color: white; /* Set text color to white for better readability */
+    position: relative; /* Add position relative for proper stacking */
+    z-index: 2; /* Place the paragraphs above the pseudo-element */
+}
+    
+  </style>
+</head>
+<body>
+    <div class="header p-5">
+        <h1 class="fw-bolder text-center m-5" style="font-size: 4rem;">Getting to albay</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 text-center">
+                    <H2 style="color: orangered;"><i class="fa-solid fa-plane text-left"></i> Air</H2>
+              <p>There are short flights (roughly 75-90mins) from Manila to Legazpi in Albay, Naga City in Camarines Sur, Virac on Catanduanes and Masbate island. CALABARZON’s Quezon province is also a gateway to Bicol.</p>
+                </div>
+                <div class="col-lg-6 col-md-12 text-center">
+                    <H2 style="color: orangered;"><i class="fa-solid fa-car-side"></i> Land</H2>
+              <p>If you prefer to travel by land, you can take a bus or drive to Albay. From Manila, it takes around 10 to 12 hours by bus. Several bus companies ply the Manila to Legazpi route, including: Cagsawa Travel and Tours, DLTBCo., Philtranco, Isarog Lines,Penafrancia Tours. </p>
+                </div>
+                <div class="col-12 text-center">
+                    <H2 style="color: orangered;"><i class="fa-solid fa-ship"></i> Air</H2>
+              <p>There are short flights (roughly 75-90mins) from Manila to Legazpi in Albay, Naga City in Camarines Sur, Virac on Catanduanes and Masbate island. CALABARZON’s Quezon province is also a gateway to Bicol.</p>
+                </div>
+                <div class="col-12 text-center">
+                    <H2 style="color: orangered;">Within Albay</H2>
+              <p>Once you arrive in Albay, you can easily travel around the province via tricycles, jeepneys, and buses. Tricycles are commonly available for short distances within towns and cities. Jeepneys and buses are the primary modes of transportation for traveling between towns and to other provinces in the Bicol Region. </p>
+              <a href="index.html"><button type="button" class="btn btn-warning">Get Back</button></a>
+                </div>
+                <div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

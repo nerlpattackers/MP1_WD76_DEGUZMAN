@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="jav.js"> -->
+    
+    <title>Marina sa Albay!</title>
+     <!-- Add Bootstrap CSS link -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Add custom CSS -->
+  <style>
+    /* Custom CSS for transparent navbar */
+    
+  </style>
+    
+    
+</head>
+<body>
+    <!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <a class="navbar-brand" href="#">Marina sa Albay!</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link text-primary fw-bold" href="#" style="font-size: 1.1rem;">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-primary fw-bold" href="destination.html" style="font-size: 1.1rem;">Destination</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-primary fw-bold" href="festival.html" style="font-size: 1.1rem;">Festival</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-primary fw-bold" href="foods.html" style="font-size: 1.1rem;">Foods</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Add your content here -->
+  
+  <!-- Add Bootstrap JS and jQuery scripts -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  
+  <!-- Add custom JavaScript for navbar scrolling -->
+  <script>
+    $(function() {
+      $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        if (scroll >= 50) {
+          $(".navbar").addClass("scrolled");
+        } else {
+          $(".navbar").removeClass("scrolled");
+        }
+      });
+    });
+  </script>
+    <!-- End of Navigation Bar -->  
+
+    <!-- Start of Header -->
+    <div class="header">
+        <!-- <img  class="img-fluid" src="img/mayon-volcano.jpg" alt=""> -->
+        <video class="img-fluid" autoplay loop muted>
+            <source src="vid/albay-webvid.webm" type="video/webm">
+            
+        </video>
+    </div>
+    <!-- End of Header -->
+    <!-- Options -->
+    <div class="container p-5">
+        <div class="row g-5">
+          <div class="col-lg-4 col-md-12">
+            <div class="thumbnail">
+              <a href="destination.html">
+                <img src="img/Redirect/destination.jpg" alt="Lights">
+                <div class="text-dark fw-bolder text-center">Destination</div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="thumbnail">
+              <a href="festival.html">
+                <img src="img/Redirect/festival.png" alt="Nature">
+                <div class="text-dark fw-bolder text-center">Festival</div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-12">
+            <div class="thumbnail">
+              <a href="travel-info.html">
+                <img src="img/Redirect/travel.jpg" alt="Fjords">
+                <div class="text-dark fw-bolder text-center">Travel to Albay</div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="thumbnail">
+              <a href="foods.html">
+                <img src="/img/foods/bicol-express.webp" alt="Fjords">
+                <div class="text-dark fw-bolder text-center">Foods</div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <div class="thumbnail">
+              <a href="/w3images/fjords.jpg">
+                <img src="/img/travel-tips.jpg" alt="Fjords">
+                <div class="text-dark fw-bolder text-center">Tips</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- <div class="container p-5">
+        <div class="row g-5">
+            <div class="col-lg-4 col-md-12">
+                <div class="card text-white h-100">
+                    <img class="card-img img-fluid" src="img/destination.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <button class="btn text-light fw-bolder" style="font-size: 1.5rem;">Destination</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="card text-white h-100">
+                    <img class="card-img" src="img/where-to-go.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <button class="btn text-light fw-bolder" style="font-size: 1.5rem;">WTD</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-12">
+                <div class="card text-white h-100">
+                    <img class="card-img" src="img/travel-tips.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <button class="btn text-light fw-bolder" style="font-size: 1.5rem;">Tips</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-12">
+                <div class="card text-white h-100">
+                    <img class="card-img" src="img/travel-tips.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <button class="btn text-light fw-bolder" style="font-size: 1.5rem;">safsfs</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-12">
+                <div class="card text-white h-100">
+                    <img class="card-img w-100" src="img/Where-to-go.jpg" alt="Card image">
+                    <div class="card-img-overlay">
+                        <button class="btn text-light fw-bolder" style="font-size: 1.5rem;">safsfs</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Options -->
+    
+
+      <!-- cols -->
+    <div class="container-fluid p-5 bg-light">
+        <div class="content-container">
+          <div class="row g-5">
+            <div class="col-12">
+              <h1 class="fw-bold">Explore Albay</h1>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <img class="img-fluid" src="img/mayon-volcano.jpg" alt="Mayon Volcano">
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <p style="font-size: 1.3rem;" class="text-left">Albay is a province in the Philippines situated in the Bicol Region occupying the southeastern peninsula of Luzon and the outlying island provinces of Masbate and Catanduanes. Its capital is the City of Legazpi.</p>
+              <p style="font-size: 1.3rem;" class="text-left">The province has a land area of 2,574.91 square kilometers or 994.18 square miles. Its population as determined by the 2020 Census was 1,374,768. This represented 22.60% of the total population of the Bicol Region, 2.21% of the overall population of the Luzon island group, or 1.26% of the entire population of the Philippines. Based on these figures, the population density is computed at 534 inhabitants per square kilometer or 1,383 inhabitants per square mile.</p>
+              <p style="font-size: 1.3rem;" class="text-left">Albay is bordered, clockwise from the North, by Camarines Sur, Lagonoy Gulf, Albay Gulf, Sorsogon, and the Burias Pass.</p>
+              <button type="button" class="btn btn-outline-info" onclick="scrollToTravelInfo()">How to Get There</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="clear: both;"></div>
+      <!-- cols -->
+      
+      <!-- Cards -->
+      <div class="container my-5">
+        <h1 class="text fw-bold" style="color: orangered;">10 REASONS WHY IT'S MORE FUN IN ALBAY</h1>
+        <br>
+        <div class="row g-5">
+            <!-- Start of Col -->
+            <div class="col-12">
+                <div class="card h-100">
+                    <img src="img/mayon.gif" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title text-left" style="color: orangered;">1. Majestic Mayon Volcano</h3>
+                        <p class="card-text text-secondary text-left">
+                        Albay boasts the stunning Mayon Volcano, an almost perfectly symmetrical cone that dominates the landscape. Its awe-inspiring beauty provides a picturesque backdrop for any activity, making it a photographer's dream.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Col -->
+            <!-- Start of Col -->
+            <div class="col-lg-6 col-md-12">
+                <div class="card h-100">
+                    <img src="img/2.avif" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title text-left" style="color: orangered;">2. Breathtaking Nature Escapes</h3>
+                        <p class="card-text text-secondary text-left">
+                            From pristine beaches to lush forests and rolling hills, Albay offers an abundance of natural wonders. Whether you're into hiking, swimming, or simply lounging on the beach, there's something for every nature lover.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Col -->
+            <!-- Start of Col -->
+            <div class="col-lg-6 col-md-12">
+                <div class="card h-100">
+                    <img src="img/3.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title text-left" style="color: orangered;">3. Rich Cultural Heritage</h3>
+                        <p class="card-text text-secondary text-left">
+                            Albay is deeply rooted in history and culture. Explore the Cagsawa Ruins, a historical site that remains as a testament to the destructive power of the Mayon Volcano, or visit the Albay Park and Wildlife to learn about the region's diverse flora and fauna.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Col -->
+            <!-- Start of Col -->
+            <div class="col-lg-4 col-md-12">
+                <div class="card h-100">
+                    <img src="img/4.webp" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title text-left" style="color: orangered;">4. Delectable Bicolano Cuisine</h3>
+                        <p class="card-text text-secondary text-left">
+                            Bicol is known for its spicy and flavorful cuisine. Savor mouthwatering dishes like Bicol Express, Laing, and Pinangat, which incorporate the region's famous chili peppers and coconut milk.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Col -->
+            <!-- Start of Col -->
+            <div class="col-lg-4 col-md-12">
+                <div class="card h-100">
+                    <img src="img/5.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title text-left" style="color: orangered;">5. Festivals and Celebrations</h3>
+                        <p class="card-text text-secondary text-left">
+                            Albay is home to various vibrant festivals, such as the Magayon Festival, which celebrates the beauty and resilience of the province. Join in the festivities, witness colorful parades, and immerse yourself in the local culture.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Col -->
+            <!-- Start of Col -->
+            <div class="col-lg-4 col-md-12">
+                <div class="card h-100">
+                    <img src="img/6.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title text-left" style="color: orangered;">6. Adventure Sports</h3>
+                        <p class="card-text text-secondary text-left">
+                            Thrill-seekers will find their paradise in Albay. Try out exhilarating activities like ATV rides on lava trails, ziplining across lush canyons, or even embark on a challenging trek up Mayon Volcano itself.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Col -->
+            <!-- Start of Col -->
+            <div class="col-lg-3 col-md-12">
+                <div class="card h-100">
+                    <img src="img/7.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title text-left" style="color: orangered;">7. Warm and Friendly Locals</h3>
+                        <p class="card-text text-secondary text-left">
+                            The locals of Albay are known for their hospitality and warm demeanor. Engaging with them will not only enrich your experience but also create lasting memories of your trip.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Col -->
+            <!-- Start of Col -->
+            <div class="col-lg-3 col-md-12">
+                <div class="card h-100">
+                    <img src="img/8.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title text-left" style="color: orangered;">8. Eco-Tourism Opportunities</h3>
+                        <p class="card-text text-secondary text-left">
+                            Albay takes pride in its commitment to preserving the environment. Participate in eco-tours that promote sustainability and conservation efforts, allowing you to appreciate the natural beauty responsibly.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Col -->
+            <!-- Start of Col -->
+            <div class="col-lg-3 col-md-12">
+                <div class="card h-100">
+                    <img src="img/9.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title text-left" style="color: orangered;">9. Unique Souvenirs</h3>
+                        <p class="card-text text-secondary text-left">
+                            Albay is renowned for its handicrafts and products made from abaca fiber, pili nuts, and coconut shells. Take home authentic and locally-made souvenirs to cherish the memories of your time in this captivating province.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- End of Col -->
+            <!-- Start of Col -->
+            <div class="col-lg-3 col-md-12">
+                <div class="card h-100">
+                    <img src="img/10.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                        <h3 class="card-title text-left" style="color: orangered;">10. Vibrant Nightlife and Entertainment</h3>
+                        <p class="card-text text-secondary text-left">
+                            When the sun sets, Albay comes alive with a vibrant nightlife scene. Enjoy live music, dance the night away at local bars and clubs, or join one of the many beach parties and gatherings. The lively atmosphere and friendly locals ensure that your nights in Albay are as fun-filled as your days.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+            <!-- Featured video -->
+            <div class="container p-5 bg-light">
+                    <h1 class="text" style="color: orangered;">Featured video of Biyahe ni Drew</h1>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0FDb7U4zbGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                      </div>
+            </div>
+            <!-- Featured video -->
+            <!-- latest news -->
+            <div class="container-fluid">
+                <div class="container my-5">
+                    <h1 class="text" style="color: orangered;">LATEST NEWS</h1>
+                    <br>
+                    <div class="row g-5">
+                        <!-- Start of Col -->
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card h-100">
+                                <img src="img/news1.jpeg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title text-left" style="color: orangered;">Restive Mayon still attracting more tourists to Albay</h3>
+                                    <p class="card-text text-secondary text-left">
+                                      LEGAZPI CITY, Albay, Philippines — While thousands of residents of Albay province were fleeing or being taken to shelters away from the danger zone of the restive Mt. Mayon, this city is seeing a rise of tourists drawn here by the volcano’s lava flow and rockfall events.
+                                    </p>
+                                    <a href="https://newsinfo.inquirer.net/1793130/restive-mayon-stillattracting-more-tourists-to-albay"><button type="button" class="btn btn-outline-info">Read More</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Start of Col -->
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card h-100">
+                                <img src="img/news2.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title text-left" style="color: orangered;">Albay town eyes subterranean cave as new tourism site</h3>
+                                    <p class="card-text text-secondary text-left">
+                                      LEGAZPI CITY – A new potential tourism area in Camalig town in Albay province is being planned to be developed by the Municipal Tourism and Cultural Heritage Office (MTCHO).
+                                    </p>
+                                    <a href="https://www.pna.gov.ph/articles/1199392?fbclid=IwAR1MmJaDVpW7SsVuRDdazvgUssdOjluzRWnzyco8Njx956wPuM_xNJBkFKE"><button type="button" class="btn btn-outline-info">Read More</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Start of Col -->
+                        <div class="col-lg-4 col-md-12">
+                            <div class="card h-100">
+                                <img src="img/news3.webp" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h3 class="card-title text-left" style="color: orangered;">Albay ‘heritage town’ adopts dev’t strategies to boost tourism</h3>
+                                    <p class="card-text text-secondary text-left">
+                                      LEGAZPI CITY – The local government unit (LGU) of Camalig is set to launch several projects that focus on the development of tourism infrastructure, promotional strategies, skills capability training, and Department of Tourism (DOT) accreditation of tourism-related establishments.
+                                    </p>
+                                    <a href="https://canadianinquirer.net/2022/09/23/albay-heritage-town-adopts-devt-strategies-to-boost-tourism/?fbclid=IwAR2OIBrJ62Bn9ACZjckH_h5C5JbsLeNt1De7SAyFU6b_HWGenm8Aei759mc"><button type="button" class="btn btn-outline-info">Read More</button></a>
+                                </div>
+                            </div>
+                        </div>
+            </div>
+            </div>
+        </div>
+            <!-- latest news -->
+            <!-- Getting there -->
+      <div class="container p-5 bg-light" id="travel-info">
+        <div class="content-container m-5 p-5">
+          <div class="row g-5">
+            <h1 style="text-align: center; color: orangered;">Getting There & Away</h1>
+            <div class="col-lg-6">
+              <H2><i class="fa-solid fa-plane"></i> Air</H2>
+              <p>There are short flights (roughly 75-90mins) from Manila to Legazpi in Albay, Naga City in Camarines Sur, Virac on Catanduanes and Masbate island. CALABARZON’s Quezon province is also a gateway to Bicol.</p>
+            </div>
+            <div class="col-lg-6">
+              <h2><i class="fa-solid fa-car-side"></i> Land</h2>
+              <p>By road, it’s about 475km/9hrs 30mins from Manila to Legazpi. Buses, jeepneys and cars are popular means of getting around the region.</p>
+            </div>
+            <div class="col-12">
+              <h2><i class="fa-regular fa-map"></i> MORE TRAVEL INFO</h2>
+              <p>For more general information on travel to and around the Philippine Islands, visit our travel information section:
+
+                Maps, travel tips, information on visas, working holidays and health and safety.</p>
+
+                <a href="travel-info.html"><button type="button" class="btn btn-outline-info">MORE INFO Here</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script>
+    function scrollToTravelInfo() {
+      const travelInfoElement = document.getElementById("travel-info");
+      if (travelInfoElement) {
+        travelInfoElement.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  </script>
+    
+      <br><br>
+      <!-- Getting there -->
+    <!-- footer -->
+    <footer class="py-4 bg-primary">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-6 mb-4 mb-md-0">
+                  <p class="text-light">&copy; 2023 Marina Oragon. All rights reserved.</p>
+              </div>
+              <div class="col-md-6 text-md-right">
+                  <p class="text-light mb-2">Follow us:</p>
+                  <!-- Font Awesome icons with bigger size -->
+                  <a href="https://www.facebook.com/nerlnolideguzman/" class="text-light me-3" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f fa-lg" aria-hidden="true"></i></a>
+                  <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Den" class="text-light me-3" target="_blank" rel="noopener" aria-label="Twitter"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+                  <a href="https://www.instagram.com/" class="text-light me-3" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+              </div>
+          </div>
+          <!-- Add a subscription form -->
+          <div class="row mt-4">
+              <div class="col-md-6">
+                  <h5 class="text-light">Subscribe to our Newsletter</h5>
+                  <form>
+                      <div class="input-group mb-3">
+                          <input type="email" class="form-control" placeholder="Your email address" aria-label="Your email address" aria-describedby="subscribe-btn" required>
+                          <button class="btn btn-outline-light" type="submit" id="subscribe-btn">Subscribe</button>
+                      </div>
+                  </form>
+              </div>
+              <!-- Add quick links to important pages -->
+              <div class="col-md-6 text-md-right">
+                  <h5 class="text-light">Quick Links</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="index.html" class="text-light">Home</a></li>
+                      <li><a href="/about-us" class="text-light">About Us</a></li>
+                      <li><a href="/services" class="text-light">Services</a></li>
+                      <li><a href="/contact" class="text-light">Contact</a></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+  </footer>
+  
+  
+  
+    <!-- Footer -->
+    
+  <!-- End of Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    
+</body>
+</html>

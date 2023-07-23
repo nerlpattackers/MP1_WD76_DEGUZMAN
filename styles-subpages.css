@@ -1,0 +1,112 @@
+
+.header {
+    width: 100%;
+    position: relative; /* Add position relative for proper stacking */
+    background-image: url(img/mayon-hdd.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+/* Add a pseudo-element for the overlay */
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha (last value) to control darkness */
+}
+
+/* Adjust text styles */
+.header h1 {
+    margin-top: 15% !important;
+    color: white; /* Set text color to white for better readability */
+    background-color: transparent; /* Set background to transparent */
+    position: relative; /* Add position relative for proper stacking */
+    z-index: 2; /* Place the h1 above the pseudo-element */
+}
+
+.header p {
+    color: white; /* Set text color to white for better readability */
+    position: relative; /* Add position relative for proper stacking */
+    z-index: 2; /* Place the paragraphs above the pseudo-element */
+}
+
+/* Header */
+
+.header1 {
+    width: 100%;
+    position: relative; /* Add position relative for proper stacking */
+    background-image: url(img/festivals/festival-header.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+/* Add a pseudo-element for the overlay */
+.header1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the alpha (last value) to control darkness */
+}
+/* Adjust text styles */
+.header1 h1 {
+    margin-top: 15% !important;
+    color: white; /* Set text color to white for better readability */
+    background-color: transparent; /* Set background to transparent */
+    position: relative; /* Add position relative for proper stacking */
+    z-index: 2; /* Place the h1 above the pseudo-element */
+}
+
+.header1 p {
+    color: white; /* Set text color to white for better readability */
+    position: relative; /* Add position relative for proper stacking */
+    z-index: 2; /* Place the paragraphs above the pseudo-element */
+}
+/* Header */
+.header2 {
+    width: 100%;
+    position: relative; /* Add position relative for proper stacking */
+    background-image: url(img/food-header.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    background-attachment: fixed;
+}
+
+/* Add a pseudo-element for the overlay */
+.header2::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust the alpha (last value) to control darkness */
+}
+/* Adjust text styles */
+.header2 h1 {
+    margin-top: 15% !important;
+    color: white; /* Set text color to white for better readability */
+    background-color: transparent; /* Set background to transparent */
+    position: relative; /* Add position relative for proper stacking */
+    z-index: 2; /* Place the h1 above the pseudo-element */
+}
+
+.header2 p {
+    color: white; /* Set text color to white for better readability */
+    position: relative; /* Add position relative for proper stacking */
+    z-index: 2; /* Place the paragraphs above the pseudo-element */
+}
+/* Header */
