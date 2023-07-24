@@ -15,6 +15,18 @@
     <title>Foods</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
+<style>
+    /* Resolution for tablets */
+    @media screen and (max-width: 768px) {
+        #header{
+            font-size: 3.3rem !important;
+        }
+        #pheader{
+            font-size: 1.2rem !important;
+        }
+    }
+    /* Resolution for tablets */
+</style>
 <body>
         <!-- Navbar -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -58,7 +70,7 @@
     });
   </script>
     <!-- End of Navigation Bar -->
-    <button onclick="topFunction()" id="myBtn" class="rounded-button"><i class="fas fa-arrow-up"></i></button>
+    <button onclick="topFunction()" id="myBtn" class="z-3 rounded-button"><i class="fas fa-arrow-up"></i></button>
 
 <script>
 // Get the button
@@ -86,8 +98,8 @@ function topFunction() {
     <!-- header -->
     <div class="content-container-fluid">
     <div class="header2 p-5">
-        <h1 class="fw-bolder text-center m-5" style="font-size: 4rem;">Food in Albay</h1>
-        <p class="fw-bold text-center par text-light" style="font-size: 1.3rem;">
+        <h1 id="header" class="fw-bolder text-center m-5" style="font-size: 4rem;">Food in Albay</h1>
+        <p id="pheader" class="fw-bold text-center par text-light" style="font-size: 1.3rem;">
             Albay, Philippines, offers a spicy and flavorful cuisine, with highlights like the fiery "Bicol Express" and delightful "Pinangat" dishes. Fresh seafood and sweet Pili nut delicacies also tantalize taste buds. A food lover's paradise amidst stunning landscapes.</p>
         </div>
     </div>

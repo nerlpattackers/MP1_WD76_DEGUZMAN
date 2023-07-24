@@ -15,6 +15,18 @@
     <title>Festivals</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
+<style>
+    /* for pekeng cp */
+    @media screen and (max-width: 550px) {
+        #header{
+            font-size: 3rem !important;
+        }
+        #pheader{
+            font-size: 1.2rem !important;
+        }
+    }
+    /* for pekeng cp */
+</style>
 <body>
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -62,7 +74,7 @@
     });
   </script>
     <!-- End of Navigation Bar -->  
-    <button onclick="topFunction()" id="myBtn" class="rounded-button"><i class="fas fa-arrow-up"></i></button>
+    <button onclick="topFunction()" id="myBtn" class="z-3 rounded-button"><i class="fas fa-arrow-up"></i></button>
 
 <script>
 // Get the button
@@ -90,8 +102,8 @@ function topFunction() {
     <!-- header -->
     <div class="content-container-fluid">
     <div class="header1 p-5">
-        <h1 class="fw-bolder text-center m-5" style="font-size: 4rem;">Festival</h1>
-        <p class="fw-bold text-center par text-light" style="font-size: 1.3rem;">
+        <h1 id="header" class="fw-bolder text-center m-5" style="font-size: 4rem;">Festival</h1>
+        <p id="pheader" class="fw-bold text-center par text-light" style="font-size: 1.3rem;">
             Welcome to Albay, Philippines, where the Albay Festival comes alive with vibrant parades, traditional dances, and fiery Bicolano delicacies. Immerse yourself in the rich culture and stunning natural beauty of this unforgettable event. Join the celebration and create cherished memories in this charming province.</p>
         </div>
     </div>

@@ -15,6 +15,58 @@
     <title>Destination</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.ico">
 </head>
+<style>
+    /* Resolution for desktop */
+    @media screen and (min-width: 1200px) {
+        #header{
+            font-size: 3.5rem !important;
+        }
+        #pheader{
+            font-size: 1.3rem !important;
+        }
+    }
+    /* Resolution for desktop */
+    /* Resolution for laptops */
+    @media screen and (max-width: 1024px) {
+        #header{
+            font-size: 3.3rem !important;
+        }
+        #pheader{
+            font-size: 1.3rem !important;
+        }
+    }
+    /* Resolution for laptops */
+    /* Resolution for tablets */
+    @media screen and (max-width: 768px) {
+        #header{
+            font-size: 3rem !important;
+        }
+        #pheader{
+            font-size: 1.1rem !important;
+        }
+    }
+    /* Resolution for tablets */
+    /* Resolution for Cellphone */
+    @media screen and (max-width: 480px) {
+        #header{
+            font-size: 2.5rem !important;
+        }
+        #pheader{
+            font-size: 1.1rem !important;
+        }
+    }
+    /* Resolution for Cellphone */
+    /* for pekeng cp */
+    @media screen and (max-width: 360px) {
+        #header{
+            font-size: 1.8rem !important;
+        }
+        #pheader{
+            font-size: 0.9rem !important;
+        }
+    }
+    /* for pekeng cp */
+    </style>
 <body>
      <!-- Navbar -->
      <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -62,7 +114,7 @@
     });
   </script>
     <!-- End of Navigation Bar -->  
-    <button onclick="topFunction()" id="myBtn" class="rounded-button"><i class="fas fa-arrow-up"></i></button>
+    <button onclick="topFunction()" id="myBtn" class="z-3 rounded-button"><i class="fas fa-arrow-up"></i></button>
 
 <script>
 // Get the button
@@ -90,8 +142,8 @@ function topFunction() {
     <!-- header -->
     <div class="content-container-fluid">
     <div class="header p-5">
-        <h1 class="fw-bolder text-center m-5" style="font-size: 4rem;">Majestic Tourist Spots</h1>
-        <p class="fw-bold text-center par text-light" style="font-size: 1.3rem;">
+        <h1 id="header" class="fw-bolder text-center m-5" style="font-size: 3.5rem;">Majestic Tourist Spots</h1>
+        <p id="pheader" class="fw-bold text-center par text-light" style="font-size: 1.3rem;">
             Welcome to Albay, a paradise for outdoor enthusiasts! This stunning province in the Philippines offers an enchanting landscape with active volcanoes like Mayon, known for its perfect cone shape. Despite its potential dangers, locals and visitors coexist harmoniously with this geological marvel. Albay's mountains provide thrilling hiking opportunities with lush forests and breathtaking panoramas. Come experience the captivating beauty and adventurous spirit of Albay!</p>
     </div>
     </div>
